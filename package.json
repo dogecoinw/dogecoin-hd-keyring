@@ -1,5 +1,5 @@
 {
-  "name": "@unielon/dogecoin-hd-keyring",
+  "name": "dogecoin-hd-keyring",
   "version": "0.2.0",
   "description": "A simple standard interface for a seed phrase generated set of dogecoin accounts.",
   "keywords": [
@@ -32,7 +32,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@unielon/dogecoin-simple-keyring": "^0.1.8",
+    "dogecoin-simple-keyring": "^0.1.8",
     "bitcore-lib": "^10.0.0",
     "bitcore-mnemonic": "^10.0.0"
   },
@@ -53,6 +53,7 @@
     "gulp-babel": "^8.0.0",
     "gulp-typescript": "*",
     "mocha": "^9.0.2",
+    "rimraf": "^5.0.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.3",
     "watch": "^1.0.2",

@@ -1,4 +1,4 @@
-import { SimpleKeyring } from "@unielon/dogecoin-simple-keyring";
+import { SimpleKeyring } from "dogecoin-simple-keyring";
 import * as bitcoin from "bitcoinjs-lib";
 import ECPairFactory, { ECPairInterface } from "ecpair";
 import * as ecc from "tiny-secp256k1";

@@ -1,17 +1,17 @@
-# Bitcoin HD Keyring
+# Dogecoin HD Keyring
 
 A simple JS class to be used in a `KeyringController`;
 , forked from [eth-hd-keyring](https://github.com/MetaMask/eth-hd-keyring)  
 
-**Notice**: Since bitcoin has multiple address formats, we use the public key as the address for greater flexibility.
+**Notice**: Since dogecoin has multiple address formats, we use the public key as the address for greater flexibility.
 
 ## Installation
 
-`yarn add @unielon/bitcoin-hd-keyring`
+`yarn add dogecoin-hd-keyring`
 
 or
 
-`npm install @unielon/bitcoin-hd-keyring`
+`npm install dogecoin-hd-keyring`
 
 ## The Keyring Class Protocol
 
